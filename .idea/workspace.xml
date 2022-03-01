@@ -104,7 +104,7 @@
       <workItem from="1645866332945" duration="1108000" />
       <workItem from="1645869320084" duration="26000" />
       <workItem from="1645869356848" duration="143000" />
-      <workItem from="1645869527852" duration="11960000" />
+      <workItem from="1645869527852" duration="12996000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645977783796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二天">
+      <created>1646060019134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646060019134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一天" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一天" />
+    <MESSAGE value="第二天" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二天" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
