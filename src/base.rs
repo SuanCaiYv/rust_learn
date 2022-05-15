@@ -120,3 +120,53 @@ pub fn multi_type() {
     let address = &a as *const [i32];
     println!("{:?}", address)
 }
+
+trait Converter {
+    // 这里设置绑定的类型
+    type Output;
+
+    // 这里指出返回值类型为与当前类型绑定的类型(在实现类中就是与实现类绑定的类型)
+    fn work(&self) -> Self::Output;
+}
+
+impl Converter for i32 {
+    // 这里指出绑定的类型是什么
+    type Output = i64;
+
+    fn work(&self) -> Self::Output {
+        *self as i64
+    }
+}
+
+pub fn trait_learn() {
+    let a: i32 = 12;
+    let b = a.work();
+    println!("{}", b)
+}
+
+trait Plus<T=Self> {
+    fn plus(&self, v: &T) -> Self;
+}
+
+// 这里省略了<T=i32>
+impl Plus for i32 {
+    fn plus(&self, v: &Self) -> Self {
+        *self + v
+    }
+}
+
+// 这里则显示指出了参数的类型
+impl Plus<f64> for i64 {
+    fn plus(&self, v: &f64) -> Self {
+        *self + (*v) as i64
+    }
+}
+
+pub fn default_generics() {
+    let a: i32 = 1;
+    let b: i32 = a.plus(&2);
+    println!("{}", b);
+    let c: i64 = 3;
+    let d: i64 = c.plus(&4_f64);
+    println!("{}", d)
+}
