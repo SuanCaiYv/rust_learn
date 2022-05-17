@@ -13,9 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="第六天">
-      <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +131,8 @@
       <workItem from="1652683026550" duration="100000" />
       <workItem from="1652683145364" duration="677000" />
       <workItem from="1652683936218" duration="68000" />
+      <workItem from="1652694506134" duration="163000" />
+      <workItem from="1652753697721" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
