@@ -22,15 +22,22 @@ struct MyType {
 /// 最后，可以注意到符合T: 'static的变量一定包含符合&'static T的变量，反之不行。
 fn main() {
     let x1 = MyType { a: 1, b: 2 };
-    let x1 = MyType { a: 1, b: 2 };
+    let x2 = MyType { a: 1, b: 2 };
     // x3是&'static MyType
     let x3 = &MyType { a: 1, b: 2 };
+    let x = MyType { a: 1, b: 2 };
+    let x4 = &x;
     // OK
     f1(&x1);
     // OK, &'static T 一定是'static的
     f2(x3);
     // OK
     f3(x3);
+    // 错误示范，这里给出解释的可能是，x3是通过匿名变量获取的，x4则是具名变量
+    // 匿名变量释放时间晚于所有具名变量，所以编译器认为x3背后的匿名实例拥有足够长的生命周期
+    // 而x4则是具名变量，编译器认为它的引用数据仅持续到main结束，而不够久以至于达到程序结束那么久。
+    // 另一个解释就是，具名变量得到的引用可能会因为具名变量移动所有权而失效。
+    f3(&x4);
     // 错误示范
     f2(&x2);
 }
