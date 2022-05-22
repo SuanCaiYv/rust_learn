@@ -9,7 +9,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="day 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
@@ -56,7 +56,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true"
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "copyright.filetypes.CSS"
   }
 }]]></component>
   <component name="RunManager">
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652721592445</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day 9">
+      <created>1652804919724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652804919725</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +185,8 @@
     <MESSAGE value="第五天" />
     <MESSAGE value="第六天" />
     <MESSAGE value="day 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8" />
+    <MESSAGE value="day 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
