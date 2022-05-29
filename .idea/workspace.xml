@@ -8,14 +8,19 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/echo/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/lite/http/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="day 9">
-      <change afterPath="$PROJECT_DIR$/lite/echo/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/echo/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/echo/src/main.rs" afterDir="false" />
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/5E374DAC-C381-4973-A31C-E392FCE52D3B_1_105_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/type_variable_value_ref_deref_object.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/http/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/http/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/http/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
@@ -69,7 +74,7 @@
     "settings.editor.selected.configurable": "copyright.filetypes.CSS"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run echo">
+  <component name="RunManager" selected="Cargo.Run rust_learn">
     <configuration name="Run echo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package echo --bin echo" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/echo" />
@@ -106,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run echo" />
         <item itemvalue="Cargo.Run rust_learn" />
+        <item itemvalue="Cargo.Run echo" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +138,7 @@
       <workItem from="1652272784293" duration="405000" />
       <workItem from="1652273228912" duration="8000" />
       <workItem from="1652273252861" duration="6597000" />
-      <workItem from="1653404374734" duration="7791000" />
+      <workItem from="1653404374734" duration="13023000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -198,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652804919725</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加了Echo服务器">
+      <created>1653412691399</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653412691400</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +226,8 @@
     <MESSAGE value="第六天" />
     <MESSAGE value="day 8" />
     <MESSAGE value="day 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 9" />
+    <MESSAGE value="增加了Echo服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了Echo服务器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

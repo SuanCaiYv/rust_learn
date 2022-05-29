@@ -4,9 +4,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/lite/echo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lite/http/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/echo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/lite/http/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
