@@ -12,15 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/5E374DAC-C381-4973-A31C-E392FCE52D3B_1_105_c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/type_variable_value_ref_deref_object.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/http/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/http/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/http/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
@@ -70,6 +62,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "settings.editor.selected.configurable": "copyright.filetypes.CSS"
   }
@@ -138,7 +131,7 @@
       <workItem from="1652272784293" duration="405000" />
       <workItem from="1652273228912" duration="8000" />
       <workItem from="1652273252861" duration="6597000" />
-      <workItem from="1653404374734" duration="13023000" />
+      <workItem from="1653404374734" duration="16291000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -210,11 +203,43 @@
       <option name="project" value="LOCAL" />
       <updated>1653412691400</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day 11">
+      <created>1653843554023</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653843554023</updated>
+    </task>
+    <task id="LOCAL-00012" summary="day 11">
+      <created>1653843667831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653843667831</updated>
+    </task>
+    <task id="LOCAL-00013" summary="day 11">
+      <created>1653843781598</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653843781598</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -227,7 +252,8 @@
     <MESSAGE value="day 8" />
     <MESSAGE value="day 9" />
     <MESSAGE value="增加了Echo服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了Echo服务器" />
+    <MESSAGE value="day 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
