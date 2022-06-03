@@ -9,11 +9,19 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/echo/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/http/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lite/my-redis-client/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/my-redis-client/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/my-redis-server/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/my-redis-server/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,10 +75,44 @@
     "settings.editor.selected.configurable": "copyright.filetypes.CSS"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run rust_learn">
+  <component name="RunManager" selected="Cargo.Run my-redis-client">
     <configuration name="Run echo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package echo --bin echo" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/echo" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run my-redis-client" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package my-redis-client --bin my-redis-client" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/my-redis-client" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run my-redis-server" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package my-redis-server --bin my-redis-server" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/my-redis-server" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -102,8 +144,16 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cargo.Run my-redis-client" />
+      <item itemvalue="Cargo.Run my-redis-server" />
+      <item itemvalue="Cargo.Run echo" />
+      <item itemvalue="Cargo.Run rust_learn" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run my-redis-client" />
+        <item itemvalue="Cargo.Run my-redis-server" />
         <item itemvalue="Cargo.Run rust_learn" />
         <item itemvalue="Cargo.Run echo" />
       </list>
@@ -131,7 +181,7 @@
       <workItem from="1652272784293" duration="405000" />
       <workItem from="1652273228912" duration="8000" />
       <workItem from="1652273252861" duration="6597000" />
-      <workItem from="1653404374734" duration="16291000" />
+      <workItem from="1653404374734" duration="31566000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -224,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653843781598</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="day 12&#10;增加了生命周期的更多理解">
+      <created>1653927956725</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653927956725</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +310,8 @@
     <MESSAGE value="day 9" />
     <MESSAGE value="增加了Echo服务器" />
     <MESSAGE value="day 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 11" />
+    <MESSAGE value="day 12&#10;增加了生命周期的更多理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 12&#10;增加了生命周期的更多理解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
