@@ -11,17 +11,18 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/http/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/lite/mini-tokio/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lite/my-redis-client/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/my-redis-client/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/my-redis-server/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/my-redis-server/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/async_await.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/tokio_runtime.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/mini-tokio/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/mini-tokio/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lite/mini-tokio/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,21 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "copyright.filetypes.CSS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.CSS&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cargo.Run my-redis-client">
+}</component>
+  <component name="RunManager" selected="Cargo.Run mini-tokio">
     <configuration name="Run echo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package echo --bin echo" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/echo" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run mini-tokio" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package mini-tokio --bin mini-tokio" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/mini-tokio" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -145,6 +163,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cargo.Run mini-tokio" />
       <item itemvalue="Cargo.Run my-redis-client" />
       <item itemvalue="Cargo.Run my-redis-server" />
       <item itemvalue="Cargo.Run echo" />
@@ -152,6 +171,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run mini-tokio" />
         <item itemvalue="Cargo.Run my-redis-client" />
         <item itemvalue="Cargo.Run my-redis-server" />
         <item itemvalue="Cargo.Run rust_learn" />
@@ -181,7 +201,8 @@
       <workItem from="1652272784293" duration="405000" />
       <workItem from="1652273228912" duration="8000" />
       <workItem from="1652273252861" duration="6597000" />
-      <workItem from="1653404374734" duration="31566000" />
+      <workItem from="1653404374734" duration="35645000" />
+      <workItem from="1654420285680" duration="8220000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -281,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653927956725</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="mini-redis尝试">
+      <created>1654241976255</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654241976255</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +339,8 @@
     <MESSAGE value="增加了Echo服务器" />
     <MESSAGE value="day 11" />
     <MESSAGE value="day 12&#10;增加了生命周期的更多理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 12&#10;增加了生命周期的更多理解" />
+    <MESSAGE value="mini-redis尝试" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini-redis尝试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
