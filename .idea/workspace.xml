@@ -6,16 +6,19 @@
     </configurations>
   </component>
   <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/echo/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/mini-tokio/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/http-use/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/exec/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lite/http-use/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lite/http-use/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lite/http-use/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/lite/http-use/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lite/http-use/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lite/http-use/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,12 @@
     "settings.editor.selected.configurable": "language.rust.cargo"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run exec">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exec/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Run http-use">
     <configuration name="Run exec" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exec --bin exec" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/exec" />
@@ -163,8 +171,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run exec" />
         <item itemvalue="Cargo.Run http-use" />
+        <item itemvalue="Cargo.Run exec" />
         <item itemvalue="Cargo.Run http [http]" />
         <item itemvalue="Cargo.Run rust_learn [rust_learn]" />
         <item itemvalue="Cargo.Run http" />
@@ -194,7 +202,7 @@
       <workItem from="1652273228912" duration="8000" />
       <workItem from="1652273252861" duration="6597000" />
       <workItem from="1653404374734" duration="35645000" />
-      <workItem from="1654420285680" duration="14141000" />
+      <workItem from="1654420285680" duration="21759000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -315,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654446615084</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="更改了目录结构">
+      <created>1654516733071</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654516733071</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +363,8 @@
     <MESSAGE value="mini-redis尝试" />
     <MESSAGE value="mini-tokio尝试" />
     <MESSAGE value="http使用尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="http使用尝试" />
+    <MESSAGE value="更改了目录结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改了目录结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
