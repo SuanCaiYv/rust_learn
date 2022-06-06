@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/lite/my-redis-server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lite/my-redis/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exec/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lite/http-use/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lite/mini-tokio/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
@@ -19,6 +20,7 @@
       <excludeFolder url="file://$MODULE_DIR$/lite/my-redis-server/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/mini-tokio/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/http-use/target" />
+      <excludeFolder url="file://$MODULE_DIR$/exec/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
