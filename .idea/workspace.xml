@@ -16,21 +16,11 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/temp/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lite/actix-web-use/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/actix-web-use/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/temp/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/temp/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lite/temp/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="actix-web尝试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lite/actix-web-use/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lite/actix-web-use/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +205,7 @@
       <workItem from="1652273252861" duration="6597000" />
       <workItem from="1653404374734" duration="35645000" />
       <workItem from="1654420285680" duration="26555000" />
-      <workItem from="1654611505916" duration="4343000" />
+      <workItem from="1654611505916" duration="10841000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -350,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654530466616</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="actix-web尝试">
+      <created>1654618620407</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618620407</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +382,8 @@
     <MESSAGE value="http使用尝试" />
     <MESSAGE value="更改了目录结构" />
     <MESSAGE value="添加了hyper尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了hyper尝试" />
+    <MESSAGE value="actix-web尝试" />
+    <option name="LAST_COMMIT_MESSAGE" value="actix-web尝试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
