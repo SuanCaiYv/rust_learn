@@ -1,4 +1,3 @@
-use std::borrow::BorrowMut;
 use std::sync::Mutex;
 use actix_web::{App, get, HttpResponse, HttpServer, Responder, web};
 
