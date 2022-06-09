@@ -16,12 +16,7 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/temp/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/temp/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/temp/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/temp/src/main.rs" beforeDir="false" />
-    </list>
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +200,7 @@
       <workItem from="1652273252861" duration="6597000" />
       <workItem from="1653404374734" duration="35645000" />
       <workItem from="1654420285680" duration="26555000" />
-      <workItem from="1654611505916" duration="11177000" />
+      <workItem from="1654611505916" duration="11327000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -354,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654706165333</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更新了MD">
+      <created>1654706463814</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654706463814</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +392,8 @@
     <MESSAGE value="更改了目录结构" />
     <MESSAGE value="添加了hyper尝试" />
     <MESSAGE value="actix-web尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="actix-web尝试" />
+    <MESSAGE value="更新了MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了MD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
