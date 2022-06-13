@@ -16,7 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/refcell_cell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/actix_web_url_dispatch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/middleware.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/2.md" afterDir="false" />
@@ -208,7 +209,7 @@
       <workItem from="1652273252861" duration="6597000" />
       <workItem from="1653404374734" duration="35645000" />
       <workItem from="1654420285680" duration="26555000" />
-      <workItem from="1654611505916" duration="19911000" />
+      <workItem from="1654611505916" duration="37221000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -371,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654775518646</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="继续更新了actix-web的使用">
+      <created>1654791043986</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654791043986</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +416,8 @@
     <MESSAGE value="添加了hyper尝试" />
     <MESSAGE value="actix-web尝试" />
     <MESSAGE value="更新了MD" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了MD" />
+    <MESSAGE value="继续更新了actix-web的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续更新了actix-web的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
