@@ -16,15 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/actix_web_url_dispatch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/middleware.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/actix-web-use/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lite/actix-web-use/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lite/actix-web-use/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lite/actix-web-use/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +202,9 @@
       <workItem from="1652273252861" duration="6597000" />
       <workItem from="1653404374734" duration="35645000" />
       <workItem from="1654420285680" duration="26555000" />
-      <workItem from="1654611505916" duration="37221000" />
+      <workItem from="1654611505916" duration="37564000" />
+      <workItem from="1656849551590" duration="145000" />
+      <workItem from="1656855451897" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -379,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654791043986</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="actix-web的使用">
+      <created>1655132957350</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655132957350</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +419,8 @@
     <MESSAGE value="actix-web尝试" />
     <MESSAGE value="更新了MD" />
     <MESSAGE value="继续更新了actix-web的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="继续更新了actix-web的使用" />
+    <MESSAGE value="actix-web的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="actix-web的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
-  <component name="Go" enabled="true" />
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/lite/echo/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lite/mini-redis/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lite/my-redis-client/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lite/my-redis-server/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lite/my-redis/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exec/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lite/actix-web-use/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lite/echo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lite/http-use/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lite/mini-tokio/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lite/temp/src" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <sourceFolder url="file://$MODULE_DIR$/lite/my-redis-client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lite/my-redis-server/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/lite/echo/target" />
-      <excludeFolder url="file://$MODULE_DIR$/lite/mini-redis/target" />
-      <excludeFolder url="file://$MODULE_DIR$/lite/my-redis/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/my-redis-client/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/my-redis-server/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/mini-tokio/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/http-use/target" />
       <excludeFolder url="file://$MODULE_DIR$/exec/target" />
       <excludeFolder url="file://$MODULE_DIR$/lite/actix-web-use/target" />
-      <excludeFolder url="file://$MODULE_DIR$/lite/temp/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
