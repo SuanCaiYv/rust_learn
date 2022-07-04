@@ -205,7 +205,7 @@
       <workItem from="1654611505916" duration="37564000" />
       <workItem from="1656849551590" duration="145000" />
       <workItem from="1656855451897" duration="829000" />
-      <workItem from="1656858573121" duration="1000" />
+      <workItem from="1656858573121" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -389,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656857406444</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="追加了新的总结">
+      <created>1656858590063</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1656858590063</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,8 @@
     <MESSAGE value="继续更新了actix-web的使用" />
     <MESSAGE value="actix-web的使用" />
     <MESSAGE value="追加枚举类型的复制讨论" />
-    <option name="LAST_COMMIT_MESSAGE" value="追加枚举类型的复制讨论" />
+    <MESSAGE value="追加了新的总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="追加了新的总结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
