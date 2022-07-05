@@ -17,7 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1654611505916" duration="37564000" />
       <workItem from="1656849551590" duration="145000" />
       <workItem from="1656855451897" duration="829000" />
-      <workItem from="1656858573121" duration="920000" />
+      <workItem from="1656858573121" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -396,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656858590063</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="增加了链表实现">
+      <created>1656951187788</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1656951187789</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +443,8 @@
     <MESSAGE value="actix-web的使用" />
     <MESSAGE value="追加枚举类型的复制讨论" />
     <MESSAGE value="追加了新的总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="追加了新的总结" />
+    <MESSAGE value="增加了链表实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了链表实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
