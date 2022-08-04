@@ -13,12 +13,16 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/http-use/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/exec/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/ds/data-struct/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/data-struct/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ds/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了链表实现">
+      <change afterPath="$PROJECT_DIR$/ds/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/sort.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rust_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ds/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ds/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -77,7 +80,7 @@
       <recent name="$PROJECT_DIR$/exec/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run actix-web-use">
+  <component name="RunManager" selected="Cargo.Test sort::tests::test">
     <configuration name="Run actix-web-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package actix-web-use --bin actix-web-use" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/actix-web-use" />
@@ -112,9 +115,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run http [http]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package http --bin http" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/http" />
+    <configuration name="Test list::tests::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package ds --bin ds list::tests::test -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/ds" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -129,9 +132,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run http-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package http-use --bin http-use" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/http-use" />
+    <configuration name="Test sort::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package ds --bin ds sort::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/ds" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -146,9 +149,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run temp" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package temp --bin temp" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/temp" />
+    <configuration name="Test sort::tests::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package ds --bin ds sort::tests::test -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/ds" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -164,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cargo.Run temp" />
+      <item itemvalue="Cargo.Test list::tests::test" />
+      <item itemvalue="Cargo.Test sort::tests" />
+      <item itemvalue="Cargo.Test sort::tests::test" />
       <item itemvalue="Cargo.Run actix-web-use" />
       <item itemvalue="Cargo.Run exec" />
-      <item itemvalue="Cargo.Run http [http]" />
-      <item itemvalue="Cargo.Run http-use" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run actix-web-use" />
+        <item itemvalue="Cargo.Test sort::tests::test" />
+        <item itemvalue="Cargo.Test sort::tests" />
+        <item itemvalue="Cargo.Test list::tests::test" />
         <item itemvalue="Cargo.Run exec" />
-        <item itemvalue="Cargo.Run temp" />
-        <item itemvalue="Cargo.Run http-use" />
-        <item itemvalue="Cargo.Run http [http]" />
+        <item itemvalue="Cargo.Run actix-web-use" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +212,9 @@
       <workItem from="1656855451897" duration="829000" />
       <workItem from="1656858573121" duration="2310000" />
       <workItem from="1658750858747" duration="187000" />
-      <workItem from="1658751057515" duration="2000" />
+      <workItem from="1658751057515" duration="5669000" />
+      <workItem from="1659189170093" duration="13000" />
+      <workItem from="1659529331857" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -414,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657022762062</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="着手实现数据结构">
+      <created>1658751192637</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1658751192637</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +468,8 @@
     <MESSAGE value="追加枚举类型的复制讨论" />
     <MESSAGE value="追加了新的总结" />
     <MESSAGE value="增加了链表实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了链表实现" />
+    <MESSAGE value="着手实现数据结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="着手实现数据结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
