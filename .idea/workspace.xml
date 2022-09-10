@@ -21,7 +21,11 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="" />
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +77,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/slma/RustProjects/rust_learn&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -81,7 +85,7 @@
       <recent name="$PROJECT_DIR$/exec/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run actix-web-use">
+  <component name="RunManager" selected="Cargo.Run exec">
     <configuration name="Run actix-web-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package actix-web-use --bin actix-web-use" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/actix-web-use" />
@@ -167,6 +171,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run exec" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -214,6 +223,8 @@
       <workItem from="1660321229401" duration="98000" />
       <workItem from="1660717579077" duration="159000" />
       <workItem from="1660801294319" duration="31000" />
+      <workItem from="1662631895900" duration="1298000" />
+      <workItem from="1662644887511" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -432,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660801315206</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="异步">
+      <created>1662631908228</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662631908228</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +491,8 @@
     <MESSAGE value="actix-web的使用" />
     <MESSAGE value="追加枚举类型的复制讨论" />
     <MESSAGE value="追加了新的总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="追加了新的总结" />
+    <MESSAGE value="异步" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
