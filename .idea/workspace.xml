@@ -22,10 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/async-rust.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +226,7 @@
       <workItem from="1662644887511" duration="2149000" />
       <workItem from="1662901005694" duration="1469000" />
       <workItem from="1663037328851" duration="125000" />
-      <workItem from="1663061920950" duration="1808000" />
+      <workItem from="1663061920950" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -461,7 +459,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662816873747</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="异步">
+      <created>1663080389809</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1663080389809</updated>
+    </task>
+    <task id="LOCAL-00035" summary="异步">
+      <created>1663080405865</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1663080405865</updated>
+    </task>
+    <task id="LOCAL-00036" summary="更新了异步">
+      <created>1663080539723</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1663080539723</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +522,8 @@
     <MESSAGE value="追加枚举类型的复制讨论" />
     <MESSAGE value="追加了新的总结" />
     <MESSAGE value="异步" />
-    <option name="LAST_COMMIT_MESSAGE" value="异步" />
+    <MESSAGE value="更新了异步" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了异步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

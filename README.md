@@ -2,6 +2,7 @@
 
 ### [基础篇](./doc/1.md)
 ### [项目练习](./doc/2.md)
+### [异步](./doc/3.md)
 ### [项目代码](./lite)
  - #### [hyper的使用](./lite/http-use)
  - #### [小型KV数据库服务端](./lite/my-redis-server)
