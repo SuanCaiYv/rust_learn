@@ -22,6 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/async-rust.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
@@ -224,7 +225,10 @@
       <workItem from="1660717579077" duration="159000" />
       <workItem from="1660801294319" duration="31000" />
       <workItem from="1662631895900" duration="1298000" />
-      <workItem from="1662644887511" duration="1545000" />
+      <workItem from="1662644887511" duration="2149000" />
+      <workItem from="1662901005694" duration="1469000" />
+      <workItem from="1663037328851" duration="125000" />
+      <workItem from="1663061920950" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -450,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662631908228</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="异步">
+      <created>1662816873747</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662816873747</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
