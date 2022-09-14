@@ -229,7 +229,7 @@
       <workItem from="1663037328851" duration="125000" />
       <workItem from="1663061920950" duration="2071000" />
       <workItem from="1663080801385" duration="69000" />
-      <workItem from="1663125463656" duration="2220000" />
+      <workItem from="1663125463656" duration="4690000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -511,7 +511,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663125680197</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="追加了新的理解">
+      <created>1663135404326</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1663135404326</updated>
+    </task>
+    <task id="LOCAL-00042" summary="追加了新的理解">
+      <created>1663135457547</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663135457547</updated>
+    </task>
+    <task id="LOCAL-00043" summary="追加了新的理解">
+      <created>1663135568404</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663135568404</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +551,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="第二天" />
     <MESSAGE value="第三天" />
     <MESSAGE value="第四天" />
     <MESSAGE value="第五天" />
@@ -555,7 +575,8 @@
     <MESSAGE value="更新了异步" />
     <MESSAGE value="追加了一点异步准确性" />
     <MESSAGE value="更新了README" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了README" />
+    <MESSAGE value="追加了新的理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="追加了新的理解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
