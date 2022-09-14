@@ -23,7 +23,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +229,7 @@
       <workItem from="1663037328851" duration="125000" />
       <workItem from="1663061920950" duration="2071000" />
       <workItem from="1663080801385" duration="69000" />
+      <workItem from="1663125463656" duration="2220000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -488,7 +490,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663080808884</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="追加了一点异步准确性">
+      <created>1663125477035</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125477035</updated>
+    </task>
+    <task id="LOCAL-00039" summary="更新了README">
+      <created>1663125602560</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125602560</updated>
+    </task>
+    <task id="LOCAL-00040" summary="更新了README">
+      <created>1663125680197</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125680197</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +530,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="第一天" />
     <MESSAGE value="第二天" />
     <MESSAGE value="第三天" />
     <MESSAGE value="第四天" />
@@ -531,6 +553,7 @@
     <MESSAGE value="追加了新的总结" />
     <MESSAGE value="异步" />
     <MESSAGE value="更新了异步" />
+    <MESSAGE value="追加了一点异步准确性" />
     <MESSAGE value="更新了README" />
     <option name="LAST_COMMIT_MESSAGE" value="更新了README" />
   </component>
