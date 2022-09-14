@@ -23,7 +23,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +227,7 @@
       <workItem from="1662901005694" duration="1469000" />
       <workItem from="1663037328851" duration="125000" />
       <workItem from="1663061920950" duration="2071000" />
+      <workItem from="1663080801385" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -480,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663080539723</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="更新了README">
+      <created>1663080808884</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1663080808884</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +531,8 @@
     <MESSAGE value="追加了新的总结" />
     <MESSAGE value="异步" />
     <MESSAGE value="更新了异步" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了异步" />
+    <MESSAGE value="更新了README" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
