@@ -1,8 +1,5 @@
-extern crate core;
-
-mod list;
-mod sort;
+trait T {
+}
 
 fn main() {
-    println!("Hello, world!");
 }

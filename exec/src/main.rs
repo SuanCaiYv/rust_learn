@@ -1,7 +1,7 @@
-use std::ptr::NonNull;
-
-type E = Option<NonNull<i64>>;
+#![allow(unused)]
 
 fn main() {
-    println!("size: {}", std::mem::size_of::<E>());
+    fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
+        Box::new(|x| x + 1)
+    }
 }
