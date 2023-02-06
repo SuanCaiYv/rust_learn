@@ -21,10 +21,9 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/4.md" afterDir="false" />
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ds/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/4.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +242,8 @@
       <workItem from="1663236078076" duration="166000" />
       <workItem from="1666751927995" duration="22000" />
       <workItem from="1673244202962" duration="1847000" />
-      <workItem from="1675236354660" duration="14287000" />
+      <workItem from="1675236354660" duration="14994000" />
+      <workItem from="1675673975072" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="第一天">
       <created>1645977783796</created>
@@ -567,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663236131205</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="增加了Reference">
+      <created>1675611134611</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1675611134611</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="第三天" />
     <MESSAGE value="第四天" />
     <MESSAGE value="第五天" />
     <MESSAGE value="第六天" />
@@ -611,7 +617,8 @@
     <MESSAGE value="追加了一点异步准确性" />
     <MESSAGE value="追加了新的理解" />
     <MESSAGE value="更新了README" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了README" />
+    <MESSAGE value="增加了Reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了Reference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
