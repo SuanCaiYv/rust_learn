@@ -1,25 +1,20 @@
-fn type_name<T: ?Sized>(_: &T) -> &'static str {
-    std::any::type_name::<T>()
-}
+#![allow(unused)]
 
 fn main() {
-    let arr = [1, 2, 3, 4, 5, 6];
-    // error syntax, just for understanding
-    // let s1: [i32] = arr[0..2];
-    // let s2: [i32] = arr[2..6];
-    let ss1 = &arr[0..2];
-    let ss2 = &arr[3..6];
-    println!("{}", type_name(ss1));
-    println!("{}", type_name(ss));
-    println!("{}", type_name(&ss1));
-    println!("{}", type_name(&ss2));
-    /// output:
-    /// <br>
-    /// [i32]
-    /// <br>
-    /// [i32]
-    /// <br>
-    /// &[i32]
-    /// <br>
-    /// &[i32]
+    struct PrintOnDrop(&'static str);
+    impl Drop for PrintOnDrop {
+        fn drop(&mut self) {
+            println!("drop({})", self.0);
+        }
+    }
+    // Drops `y`, then the second parameter, then `x`, then the first parameter
+    fn patterns_in_parameters(
+        (x, _): (PrintOnDrop, PrintOnDrop),
+        (_, y): (PrintOnDrop, PrintOnDrop),
+    ) {}
+    // drop order is 3 2 0 1
+    patterns_in_parameters(
+        (PrintOnDrop("0"), PrintOnDrop("1")),
+        (PrintOnDrop("2"), PrintOnDrop("3")),
+    );
 }
