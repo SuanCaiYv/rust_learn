@@ -21,7 +21,9 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference" />
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,10 +96,10 @@
     <configuration name="Run actix-web-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package actix-web-use --bin actix-web-use" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/actix-web-use" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
@@ -111,10 +113,10 @@
     <configuration name="Run exec" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exec --bin exec" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/exec" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
@@ -128,10 +130,10 @@
     <configuration name="Run http [http]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package http --bin http" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/http" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
@@ -145,10 +147,10 @@
     <configuration name="Run http-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package http-use --bin http-use" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/http-use" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
@@ -162,10 +164,10 @@
     <configuration name="Run temp" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package temp --bin temp" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/temp" />
+      <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
@@ -241,6 +243,7 @@
       <workItem from="1675236354660" duration="14994000" />
       <workItem from="1675673975072" duration="1278000" />
       <workItem from="1676277825117" duration="5078000" />
+      <workItem from="1677749410133" duration="3031000" />
     </task>
     <task id="LOCAL-00002" summary="第二天">
       <created>1646060019134</created>
