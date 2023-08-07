@@ -22,7 +22,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/Pasted Graphic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/does_not_compile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +245,9 @@
       <workItem from="1675236354660" duration="14994000" />
       <workItem from="1675673975072" duration="1278000" />
       <workItem from="1676277825117" duration="5078000" />
-      <workItem from="1677749410133" duration="3031000" />
+      <workItem from="1677749410133" duration="4231000" />
+      <workItem from="1678069679327" duration="1966000" />
+      <workItem from="1678081676059" duration="4125000" />
     </task>
     <task id="LOCAL-00002" summary="第二天">
       <created>1646060019134</created>
