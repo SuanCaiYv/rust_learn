@@ -22,8 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
-      <change afterPath="$PROJECT_DIR$/doc/Pasted Graphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/does_not_compile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="25dl9PXB77tPK6gSNZY9z7kZP4G" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,6 +81,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/slma/RustProjects/rust_learn&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -248,6 +252,8 @@
       <workItem from="1677749410133" duration="4231000" />
       <workItem from="1678069679327" duration="1966000" />
       <workItem from="1678081676059" duration="4125000" />
+      <workItem from="1691393723049" duration="922000" />
+      <workItem from="1691992844329" duration="1453000" />
     </task>
     <task id="LOCAL-00002" summary="第二天">
       <created>1646060019134</created>
