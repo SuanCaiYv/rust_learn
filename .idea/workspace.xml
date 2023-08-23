@@ -22,8 +22,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
-      <change afterPath="$PROJECT_DIR$/doc/5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exec/src/main.ll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/5.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/6.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/alloc.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/boxed.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library/alloc/src/vec/drain.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library/core/src/mem/mod.rs" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library/core/src/ptr/unique.rs" root0="SKIP_INSPECTION" />
   </component>
@@ -89,7 +96,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.CSS&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -120,7 +127,7 @@
       <option name="command" value="run --package exec --bin exec" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/exec" />
       <option name="emulateTerminal" value="false" />
-      <option name="channel" value="DEFAULT" />
+      <option name="channel" value="STABLE" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
       <option name="withSudo" value="false" />
@@ -184,6 +191,13 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cargo.Run actix-web-use" />
+      <item itemvalue="Cargo.Run exec" />
+      <item itemvalue="Cargo.Run http-use" />
+      <item itemvalue="Cargo.Run http [http]" />
+      <item itemvalue="Cargo.Run temp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Run exec" />
@@ -253,7 +267,10 @@
       <workItem from="1678069679327" duration="1966000" />
       <workItem from="1678081676059" duration="4125000" />
       <workItem from="1691393723049" duration="922000" />
-      <workItem from="1691992844329" duration="1453000" />
+      <workItem from="1691992844329" duration="14854000" />
+      <workItem from="1692599080546" duration="7699000" />
+      <workItem from="1692692516484" duration="4627000" />
+      <workItem from="1692759963813" duration="11937000" />
     </task>
     <task id="LOCAL-00002" summary="第二天">
       <created>1646060019134</created>
