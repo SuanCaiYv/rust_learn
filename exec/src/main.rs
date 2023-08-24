@@ -58,7 +58,7 @@ fn main() {
         println!("test start");
         let mut vec = vec![1, 2, 3];
         let mut timer = SimpleTimeout {
-            duration: Duration::from_secs(1),
+            duration: Duration::from_secs(vec[0]),
             timeout: false,
         };
         loop {
