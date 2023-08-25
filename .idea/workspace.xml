@@ -21,14 +21,7 @@
     <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/6.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/exec/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exec/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exec/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,7 +263,7 @@
       <workItem from="1691992844329" duration="14854000" />
       <workItem from="1692599080546" duration="7699000" />
       <workItem from="1692692516484" duration="4627000" />
-      <workItem from="1692759963813" duration="30076000" />
+      <workItem from="1692759963813" duration="30916000" />
     </task>
     <task id="LOCAL-00002" summary="第二天">
       <created>1646060019134</created>
