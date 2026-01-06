@@ -12,16 +12,45 @@
     </configurations>
   </component>
   <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/lite/echo/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/lite/mini-tokio/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/lite/http-use/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/lite/echo/Cargo.toml">
+      <package file="$PROJECT_DIR$/lite/echo">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-client/Cargo.toml">
+      <package file="$PROJECT_DIR$/lite/my-redis-client">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/lite/my-redis-server/Cargo.toml">
+      <package file="$PROJECT_DIR$/lite/my-redis-server">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/lite/mini-tokio/Cargo.toml">
+      <package file="$PROJECT_DIR$/lite/mini-tokio">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/lite/http-use/Cargo.toml">
+      <package file="$PROJECT_DIR$/lite/http-use">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
     <cargoProject FILE="$PROJECT_DIR$/exec/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/lite/actix-web-use/Cargo.toml">
+      <package file="$PROJECT_DIR$/lite/actix-web-use">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference" />
+    <list default="true" id="ea83db6b-c874-47ab-b144-769fd0d577e3" name="Changes" comment="增加了Reference">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/exec/Cargo.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +59,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -78,6 +108,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -102,6 +135,7 @@
     <configuration name="Run actix-web-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package actix-web-use --bin actix-web-use" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/actix-web-use" />
+      <envs />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -109,7 +143,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
-      <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
       <method v="2">
@@ -119,6 +152,7 @@
     <configuration name="Run exec" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exec --bin exec" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/exec" />
+      <envs />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="NIGHTLY" />
       <option name="requiredFeatures" value="true" />
@@ -126,7 +160,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
-      <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
       <method v="2">
@@ -136,6 +169,7 @@
     <configuration name="Run http [http]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package http --bin http" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/http" />
+      <envs />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -143,7 +177,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
-      <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
       <method v="2">
@@ -153,6 +186,7 @@
     <configuration name="Run http-use" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package http-use --bin http-use" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/http-use" />
+      <envs />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -160,7 +194,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
-      <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
       <method v="2">
@@ -170,6 +203,7 @@
     <configuration name="Run temp" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package temp --bin temp" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/lite/temp" />
+      <envs />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -177,7 +211,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
-      <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
       <method v="2">
@@ -187,8 +220,8 @@
     <list>
       <item itemvalue="Cargo.Run actix-web-use" />
       <item itemvalue="Cargo.Run exec" />
-      <item itemvalue="Cargo.Run http-use" />
       <item itemvalue="Cargo.Run http [http]" />
+      <item itemvalue="Cargo.Run http-use" />
       <item itemvalue="Cargo.Run temp" />
     </list>
     <recent_temporary>
@@ -264,6 +297,8 @@
       <workItem from="1692599080546" duration="7699000" />
       <workItem from="1692692516484" duration="4627000" />
       <workItem from="1692759963813" duration="30916000" />
+      <workItem from="1767196612654" duration="5215000" />
+      <workItem from="1767576106709" duration="2000" />
     </task>
     <task id="LOCAL-00002" summary="第二天">
       <created>1646060019134</created>
@@ -668,5 +703,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
